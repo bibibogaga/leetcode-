@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(01)
+#set(cmake_cxx_complier "g++")
+#set(cmake_cxx_flags "-std=c++11 -03")
+#set(use_test ${sources_directory}/01.cpp) message("use_test:${use_test}")
+IF(NOT CMAKE_BUILD_TYPE)
+    SET(CMAKE_BUILD_TYPE Debug)
+ENDIF(NOT CMAKE_BUILD_TYPE)
+
+#SET(EXERCUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+#SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+#SET(CMAKE_INSTALL_PREFIX <install path>)
+# cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+#LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib)
+#INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+#ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src)
+#find_package(OpenCV REQUIRED)
+#include_directories(${OpenCV_INCLUDE_DIRS})
+#target_link_libraries(${OpenCV_LIBRARIES})
+
+#add_library(01 SHARED 01.cpp)
+add_executable(01 src/01.cpp)
+#target_link_libraries(01 01)

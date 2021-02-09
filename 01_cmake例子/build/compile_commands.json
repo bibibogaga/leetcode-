@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yoga/leetcode/01/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/01.dir/src/01.cpp.o -c /home/yoga/leetcode/01/src/01.cpp",
+  "file": "/home/yoga/leetcode/01/src/01.cpp"
+}
+]
